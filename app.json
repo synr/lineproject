@@ -1,0 +1,14 @@
+{
+  "name": "LineBot",
+  "description": "lineproject",
+  "repository": "https://github.com/synr/lineproject",
+  "keywords": ["Line", "go", "static"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/kr/heroku-buildpack-go.git"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
